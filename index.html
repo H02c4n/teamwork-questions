@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teamwork</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <img
+          src="./img/CLARUSWAY_LOGO.png"
+          alt="Logo"
+          class="d-inline-block align-text-top"
+        />
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-header">
+                <h5 class="card-title">
+                  Question <span class="soruNo"></span>
+                  <span id="counter"></span>
+                </h5>
+                <p class="card-text fs-4 qtext">Soru?</p>
+              </div>
+
+              <pre>
+                <code class="code">Code</code>
+             </pre>
+              <hr />
+              <div class="options">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerfromclient"
+                    id="exampleRadios1"
+                    value="option2"
+                  />
+                  <label
+                    class="form-check-label opt0 fs-5"
+                    for="exampleRadios1"
+                  >
+                    var student = construct Person;
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerfromclient"
+                    id="exampleRadios2"
+                    value="option2"
+                  />
+                  <label
+                    class="form-check-label opt1 fs-5"
+                    for="exampleRadios2"
+                  >
+                    var student = new Person();
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerfromclient"
+                    id="exampleRadios3"
+                    value="option2"
+                  />
+                  <label
+                    class="form-check-label opt2 fs-5"
+                    for="exampleRadios3"
+                  >
+                    var student = construct Person();
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerfromclient"
+                    id="exampleRadios4"
+                    value="option2"
+                  />
+                  <label
+                    class="form-check-label opt3 fs-5"
+                    for="exampleRadios4"
+                  >
+                    var student = Person();
+                  </label>
+                </div>
+              </div>
+
+              <div class="mt-3 card-footer d-flex justify-content-between">
+                <!-- <button class="btn btn-primary border border-0 backward">
+                  <i class="fa-solid fa-backward"></i> Previous
+                </button> -->
+                <span
+                  class="qbar badge fw-bold fs-5 bg-info d-flex align-items-center"
+                ></span>
+                <button class="btn btn-primary border border-0 forward">
+                  Next <i class="fa-solid fa-forward forward"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
