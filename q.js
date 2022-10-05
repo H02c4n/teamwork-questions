@@ -21,7 +21,7 @@ const s1 = new Teamwork(
     "when you want a default implementation of `shouldComponentUpdate()",
     "when you do not want your component to have state ",
   ],
-  "c1",
+  "when you want a default implementation of `shouldComponentUpdate()",
   "9"
 );
 const s2 = new Teamwork(
@@ -35,7 +35,7 @@ const s2 = new Teamwork(
     "Move the h1 to another component.",
     "Surround the h1 in a div.",
   ],
-  "c2",
+  "Change the curly braces to parentheses or add a return statement before the h1 tag.",
   "8"
 );
 const s3 = new Teamwork(
@@ -73,9 +73,9 @@ const s5 = new Teamwork(
     "<button onClick={(name) => this.hug(name)}>Hug Button</button>",
     "<button onClick={this.hug(e, name)}>Hug Button</button>",
     "<button onClick={(e) => hug(e, name)}>Hug Button</button>",
-    " <button onClick={(e) => this.hug(name,e)}>Hug Button</button>",
+    "<button onClick={(e) => this.hug(name,e)}>Hug Button</button>",
   ],
-  "<button onClick={(name) => this.hug(name)}>Hug Button</button>",
+  "<button onClick={(e) => this.hug(name,e)}>Hug Button</button>",
   "8"
 );
 const s6 = new Teamwork(
