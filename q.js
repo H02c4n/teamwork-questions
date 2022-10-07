@@ -87,7 +87,7 @@ const s6 = new Teamwork(
     "A function component is the only way to create a component.",
     "A function component is the same as a class component.",
   ],
-  "A function component is the same as a class component.",
+  "A function component accepts a single props object and returns a React element.",
   "8"
 );
 const s7 = new Teamwork(
